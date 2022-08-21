@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barras Moviles</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="./../index.html"><img class="logo" src="./../assets/images/barras moviles.jpg" alt="Logo"></a>
+        <nav class="menu">
+            <ul>
+                <li class="menu__item"><a href="./../index.html">Inicio</a> </li>
+                <li class="menu__item"> <a href="./../pages/nosotros.html">Nosotros</a></li>
+                <li class="menu__item"> <a href="./../pages/cocktails.html">Cocktails</a></li>
+                <li class="menu__item"> <a href="./../pages/galeria.html">Galeria</a></li>
+                <li class="menu__item"> <a class="active" href="./../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="page__contacto">
+        <div class="contacto">
+            <h2 class="contacto__titulo">BARRAS MOVILES & COCKTAILS TRUCK</h2>
+            <img class="contacto__image" src="./../assets/images/barras moviles.jpg" alt="Logo Barras Moviles">
+            <h4 class="contacto__subtitulo">PONE FECHA, ELEGI EL LUGAR Y AHI ESTAREMOS</h4>
+            <div class="contacto__redes">
+                <div class="contacto__redes__1">
+                    <a target="_blank" href="https://www.instagram.com/barrasmoviles/"> <img src="./../assets/images/instagram.jpg" alt="Instagram"></a>
+                </div>
+                    <div class="contacto__redes__2">
+                        <a target="_blank" href="https://api.whatsapp.com/message/HMDLHE6MQJ47H1?autoload=1&app_absent=0"><img src="./../assets/images/whatsapp.jpg" alt="Whatsapp"></a>
+                    </div>
+                </div>
+                <div>
+                    <button class="contacto__contacto"><a href="./../pages/contacto.html"> SOLICITA TU PRESUPUESTO</a></button>
+                </div>
+            </div>
+
+    <form class="formulario" action="#">
+        <h3 class="formulario__titulo">SOLICITA TU PRESUPUESTO ONLINE</h3>
+        <section class="formulario__cuerpo">
+
+            <div class="formulario__datos">
+                <label for="apellidos">Apellidos:</label>
+                <input class="formulario__input" type="text" id="apellidos" placeholder="Apellidos.."/>
+            </div>      
+
+            <div class="formulario__datos">
+                <label for="nombres">Nombres:</label>
+                <input class="formulario__input" type="text" id="nombres" placeholder="Nombres.."/>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="telefono">Teléfono:</label>
+                <input class="formulario__input" type="tel" id="telefono" placeholder="Telefono.."/>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="email">E-mail:</label>
+                <input class="formulario__input" type="email" id="email" placeholder="Email.."/>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="lugar">Lugar del Evento:</label>
+                <input class="formulario__input" type="text" id="lugar" placeholder="Direccion y Localidad.."/>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="invitados">Cantidad de Invitados:</label>
+                <input class="formulario__input" type="number" id="invitados" placeholder="Cantidad de Invitados.."/>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="fecha">Selecciona fecha del evento</label>
+                <input class="formulario__input" type="date" id="fecha"/>
+            </div>
+
+        <fieldset>
+            <legend class="formulario__datos"> Tipo de Evento</legend>
+            <div>
+                <input type="radio" name="evento" value="1">
+                <label> Casamiento </label>
+            </div>
+            <div>
+                <input type="radio" name="evento" value="2">
+                <label> Cumpleaños</label>
+            </div>
+            <div>
+                <input type="radio" name="evento" value="3">
+                <label> Evento Empresarial </label>
+            </div>
+            <div>
+                <input type="radio" name="evento" value="4">
+                <label> Otro </label>
+            </div>
+            <div>
+                <label for="otro"> Si selecciono otro indica tipo de evento:</label>
+                <input class="formulario__input" type="text" id="otro" placeholder="Tipo de Evento..">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend class="formulario__datos">Observaciones:</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <div>
+            <input class="limpiarDatos" type="reset" value="Limpiar Datos">
+            <input class="enviar" type="submit" value="Solicitar Presupuesto">
+        </div>
+    </form>
+    </main>
+
+
+    <footer>
+        <h4> Barras Moviles - Exclusive Mobile Bar for Events - Empresa dedicada a la Cocteleria</h4>
+        <h5>Todos los derechos reservados, Copyright &COPY</h5>
+        <h5>Telefono: +54 9 1127452336 - Seguinos en nuestras redes sociales</h5>
+    </footer>
+    
+</body>
+</html>
